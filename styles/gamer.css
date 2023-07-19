@@ -1,4 +1,5 @@
 body{font-family: 'Work Sans', sans-serif;}
+*{margin: 0px;}
 /* nav section */
 nav{display: flex;  justify-content: space-between; margin: 36px 240px; align-items: center; background-color: #fff; }
 
@@ -11,18 +12,24 @@ nav{display: flex;  justify-content: space-between; margin: 36px 240px; align-it
 
 .nav-sections a {color: #3C354F; text-decoration: none;}
 
-.nav-sections li{list-style: none; padding: 32px;}  
+.nav-sections li{list-style: none;}  
 
-/* .youtube{width: 33px;
-    height: 24px;}
+.icon-nav{display: flex; align-items: center;}
+
+.youtube{width: 32px;
+    height: 30px; margin-left: 24px;}
 
 .tiktok{width: 24px;
-    height: 24px;} */
+    height: 24px; margin-left: 16px; margin-right: 16;}
 
 .color{color: #FF42A5;}
 
 .nav-logo{display: flex; align-items: center;}
 
 .nav-bar{font-size: 1.2rem; font-weight: 500; padding-left: 32px;}
+
+.nav-icon{display: flex; align-items: center; background-color: rgba(11, 2, 35, 0.10); border-radius: 8px; padding: 16px; margin-left: 30px;}
+
+#follow{font-size: 1.2rem; font-weight: 500;}
 
 .nav-sections{display: flex; align-items: center;}
