@@ -66,8 +66,19 @@ nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240
 .button-flex{ display: flex; padding-top: 40px;}
 
 /* <!-- Online Games Funny Videos section --> */
-    
+   
+.four-games{display: flex; margin: 48px 240px 120px; gap: 24px; }
 
+#online-first-text{color: #0B0223; font-size: 48px; font-weight: 700; padding-bottom: 16px;}
+
+#online-first-text-mid{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+ font-size: 3rem; font-weight: 700;}
+
+ #online-second-text{color: #534C64; font-size: 1.1rem; font-weight: 400;}
+
+ .online-texts{text-align: center; margin-top: 120px;}
+ .four-games-text{color: #534C64; font-size: 1.3rem; font-weight: 500; padding-top: 24px;}
 
 
 
