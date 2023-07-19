@@ -80,6 +80,10 @@ nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240
  .online-texts{text-align: center; margin-top: 120px;}
  .four-games-text{color: #534C64; font-size: 1.3rem; font-weight: 500; padding-top: 24px;}
 
+ /* Play Instantly,No Downloads No Installs section\ */
+
+
+
 
 
 
@@ -105,9 +109,20 @@ nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240
 
 @media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 75%;} 
 .nav-sections{flex-direction: column; padding-top: 60px; gap: 50px;} .nav-icon{width: 262px; height: 56px;}
-.banner-section{flex-direction: column-reverse;} .banner-bg{ background-size: 110%; padding-right: 20%; padding-bottom: 100px;}
-}
 
+.banner-section{flex-direction: column-reverse;} .banner-bg{ background-size: 110%; padding-right: 20%; padding-bottom: 100px;}
+
+.four-games{flex-direction: column; margin: 48px 140px 120px;} .four-games-all{width: 603px;
+    height: 560.331px;} .four-games-text{width: 603px; height: 84.05px; text-align: center;}
+    #online-first-text{width: 655px; margin-left: 70px;} #online-second-text{margin-left: 170px; width: 470px;}
+
+
+
+
+
+
+
+}
 
 
 
