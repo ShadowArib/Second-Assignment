@@ -70,3 +70,41 @@ nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resposive part of website */
+
+/* For mobile */
+
+@media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 75%;} 
+.nav-sections{flex-direction: column; padding-top: 60px; gap: 50px;} .nav-icon{width: 262px; height: 56px;}
+.banner-section{flex-direction: column-reverse;} .banner-bg{ background-size: 110%; padding-right: 20%; padding-bottom: 100px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
