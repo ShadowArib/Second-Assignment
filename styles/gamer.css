@@ -156,28 +156,24 @@ padding-bottom:130px;}
 
 /* For mobile */
 
-@media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 75%;} 
-.nav-sections{flex-direction: column; padding-top: 60px; gap: 50px;} .nav-icon{width: 262px; height: 56px;}
+@media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 120%;} .nav-sections{flex-direction: column;} .nav-bar{padding: 20px;}
 
-.banner-section{flex-direction: column-reverse;} .banner-bg{ background-size: 110%; padding-right: 20%; padding-bottom: 100px;}
+.banner-section{flex-direction: column-reverse;}  #banner-group{margin-left: 120px;}
 
-.four-games{flex-direction: column; margin: 48px 140px 120px;} .four-games-all{width: 603px;
-    height: 560.331px;} .four-games-text{width: 603px; height: 84.05px; text-align: center;}
-    #online-first-text{width: 655px; margin-left: 70px;} #online-second-text{margin-left: 170px; width: 470px;}
+.four-games{flex-direction: column;  margin-bottom:0px;} .four-games-text{width: 700px; height: 84.05px; text-align:left;}
+.four-games-all{width: 503px;height: auto} #online-first-text{width: 655px; height: 56px; margin-left: 150px;} #online-second-text{width: 462px; height: 30px; margin-left: 250px;}
 
-.play-instant-container{flex-direction: column;} .angela{position: relative; left: 30px;}
-.play-instant-textbox{margin:41px 0px 20px 0px} .play-instant-first-text{ margin-left: 100px; 
-    width: 460px; height: 238px;} 
+.play-instant-container{flex-direction: column;} .angela{position: relative; left: 30px; top: -280px;
+margin-bottom: 0px} .play-instant-textbox{margin-top: 80px; margin-left: 300px; margin-right: 50px;}
+.play-instant-first-text{width: 461.751px; height: 238.163px; text-align: center; margin-bottom: 0px;}
+#play-instant-second-text{width: 478px; height: 119.082px; text-align: center; font-size: 24px;}
+.cowboy{margin: 0px 170px 20px 200px;}
 
+.all-games-1{flex-direction: column; align-items: center; justify-content: center;} .all-games-2{flex-direction: column; padding-bottom: 0px; align-items: center; justify-content: center;}
+.all-games-bg{width: 1000px; height: 1000px; padding-top: 20px; margin-bottom: 0px}
 
-
-
-
-
-
-
-
-}
+.footer-bg{width: 1000px;
+    height: 700px;}
 
 
 
@@ -188,4 +184,4 @@ padding-bottom:130px;}
 
 
 
-
+ }
