@@ -90,28 +90,30 @@ nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240
 #pink{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); background-clip: text;
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 
-.play-instant-second-text{color: #534C64; text-align: right; font-size: 1.1rem; font-weight: 400;
+play-instant-second-text{color: #534C64; text-align: right; font-size: 1.1rem; font-weight: 400;
     text-align: right;}
 
 .play-instant-textbox{margin:330px 100px 200px 320px}
 
 .cowboy{margin: 120px 240px 150px 100px;}
 
-.angela { position: relative; left:890px; bottom:450px; margin-bottom: 50px;}
+.angela { position: relative; left:890px; bottom:180px; margin-bottom: 50px;}
 
 /* all games section */
 
+.games-category{ display:flex; align-items: center; padding: 10px; border-radius: 50px;
+    background: #FFF; width: 290px; height: 70px; cursor: pointer;}
 
+.image-gap{margin-right: 35px;}
 
+.all-games-bg{background-color: rgba(255, 66, 165, 0.03);}
+.all-sec-text{ font-size: 20px; font-weight: 600;}
 
+.all-games-1{display: flex; justify-content: space-around; margin-left: 200px; margin-right: 200px; margin-bottom: 55px; }
 
+.all-games-2{display: flex;justify-content: space-around; margin-left: 330px; margin-right: 330px;}
 
-
-
-
-
-
-
+.games-category:hover{border: 2px solid #FF42A5 ; color: #FF42A5;}
 
 
 
@@ -130,6 +132,12 @@ nav{display: flex;  justify-content: space-between; padding: 36px 240px 19px 240
 .four-games{flex-direction: column; margin: 48px 140px 120px;} .four-games-all{width: 603px;
     height: 560.331px;} .four-games-text{width: 603px; height: 84.05px; text-align: center;}
     #online-first-text{width: 655px; margin-left: 70px;} #online-second-text{margin-left: 170px; width: 470px;}
+
+.play-instant-container{flex-direction: column;} .angela{position: relative; left: 30px;}
+.play-instant-textbox{margin:41px 0px 20px 0px} .play-instant-first-text{ margin-left: 100px; 
+    width: 460px; height: 238px;} 
+
+
 
 
 
