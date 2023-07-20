@@ -97,7 +97,7 @@ play-instant-second-text{color: #534C64; text-align: right; font-size: 1.1rem; f
 
 .cowboy{margin: 120px 240px 150px 100px;}
 
-.angela { position: relative; left:890px; bottom:180px; margin-bottom: 50px;}
+.angela { position: relative; left:890px; bottom:400px; margin-bottom: 0px;}
 
 /* all games section */
 
@@ -106,7 +106,7 @@ play-instant-second-text{color: #534C64; text-align: right; font-size: 1.1rem; f
 
 .image-gap{margin-right: 35px;}
 
-.all-games-bg{background-color: rgba(255, 66, 165, 0.03); width: 1920px;height: 427px;}
+.all-games-bg{background-color: rgba(255, 66, 165, 0.03); width: 1920px;height: 427px; padding-top: 200px;}
 
 .all-sec-text{ font-size: 20px; font-weight: 600;}
 
@@ -149,14 +149,11 @@ padding-bottom:130px;}
 
 
 
-
-
-
 /* Resposive part of website */
 
 /* For mobile */
 
-@media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 120%;} .nav-sections{flex-direction: column;} .nav-bar{padding: 20px;}
+@media screen and (max-width: 576px) { nav{ flex-direction: column; padding-bottom: 62px; padding-top: 100px; width: 130%;} .nav-sections{flex-direction: column;} .nav-bar{padding: 20px;}
 
 .banner-section{flex-direction: column-reverse;}  #banner-group{margin-left: 120px;}
 
@@ -173,15 +170,18 @@ margin-bottom: 0px} .play-instant-textbox{margin-top: 80px; margin-left: 300px; 
 .all-games-bg{width: 1000px; height: 1000px; padding-top: 20px; margin-bottom: 0px}
 
 .footer-bg{width: 1000px;
-    height: 700px;}
+    height: 700px;}  }
 
 
 
 
+/* For tablet */
+@media only screen and (max-width: 768px) and (min-width: 576px) { *{margin: 0px;} nav{ width:1440px ;}
+#online-first-text{margin-left: 600px; width: 700px;} #online-second-text{ margin-left: 670px; 
+    width: 540px;}.angela{ position: relative; left: 800px; top: -400px}
 
-
-
-
-
-
- }
+.play-instant-first-text{width: 341px; margin-right: 100px;}
+      
+    .footer-bg{width: 1920px;
+    height: 700px; padding-bottom: 0px;}
+}
