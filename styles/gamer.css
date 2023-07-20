@@ -106,14 +106,46 @@ play-instant-second-text{color: #534C64; text-align: right; font-size: 1.1rem; f
 
 .image-gap{margin-right: 35px;}
 
-.all-games-bg{background-color: rgba(255, 66, 165, 0.03);}
+.all-games-bg{background-color: rgba(255, 66, 165, 0.03); width: 1920px;height: 427px;}
+
 .all-sec-text{ font-size: 20px; font-weight: 600;}
 
 .all-games-1{display: flex; justify-content: space-around; margin-left: 200px; margin-right: 200px; margin-bottom: 55px; }
 
-.all-games-2{display: flex;justify-content: space-around; margin-left: 330px; margin-right: 330px;}
+.all-games-2{display: flex;justify-content: space-around; margin-left: 330px; margin-right: 330px; margin-bottom: 140px;}
 
 .games-category:hover{border: 2px solid #FF42A5 ; color: #FF42A5;}
+
+/* footer section */
+
+.footer-bg{background-color: #0B0223;}
+
+.footer-nav a{color: #FFF; text-decoration: none;}
+
+.footer-nav{list-style: none;}
+
+.footer-privacy{color: rgba(255, 255, 255, 0.60); font-size: 1rem; font-weight: 500;
+     padding-left: 60px;}
+
+.social-size{width: 40px; height: 40px; padding-left: 40px; }
+
+.footer-social{display: flex; justify-content: center; align-items: center; margin-bottom: 60px;}
+
+.footer-menus{display: flex; justify-content: center; padding-top: 73px; padding-bottom: 66px;}
+
+.footer-privacy-container{display: flex; justify-content: center; align-items: center; 
+    margin-bottom: 28px;}
+
+.footer-color-2{color: #FFF; margin-left: 20px;}
+
+.options{padding-left: 60px;}
+
+#gamer{display: flex; justify-content: center; align-items: center; padding-top: 120px;}
+
+#copyright{color: rgba(255, 255, 255, 0.60); text-align:center; font-size: 1rem; font-weight: 500;
+padding-bottom:130px;}
+
+
 
 
 
